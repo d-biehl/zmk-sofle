@@ -48,6 +48,11 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <11 12>;
+        };
     };
 
     keymap {
